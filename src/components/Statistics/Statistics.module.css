@@ -1,0 +1,15 @@
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  color: #4830f0;
+  font-weight: 700;
+
+  text-transform: capitalize;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
